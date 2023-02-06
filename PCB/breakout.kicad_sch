@@ -7,7 +7,7 @@
   (title_block
     (title "AD5293_breakout")
     (date "2023-02-05")
-    (rev "0.0.0")
+    (rev "1.0.0")
     (company "Cedar Grove Studios")
   )
 
@@ -1124,7 +1124,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005c030d6d)
     (property "Reference" "D1" (id 0) (at 119.38 185.42 90))
-    (property "Value" "GRN" (id 1) (at 120.015 187.325 90))
+    (property "Value" "PWR" (id 1) (at 120.015 187.325 90))
     (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at 116.84 187.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1498,7 +1498,7 @@
       (reference "C7") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005c030d6d"
-      (reference "D1") (unit 1) (value "GRN") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "D1") (unit 1) (value "PWR") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/53c0f073-8749-45a1-a113-ffd7eac25629"
       (reference "D3") (unit 1) (value "SD0805") (footprint "Diode_SMD:D_0805_2012Metric")

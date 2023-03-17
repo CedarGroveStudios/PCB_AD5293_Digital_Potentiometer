@@ -7,7 +7,4 @@ The AD5293 Digital Potentiometer breakout board is a simple implementation of th
 
 A CircuitPython library is available in the code folder.
 
-OSH Park project: 
-
-![Closeup Image of Module]()
-![Image of Module]()
+<a href="https://oshpark.com/shared_projects/ADF8EdH9"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>

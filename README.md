@@ -3,7 +3,9 @@
 
 ![Image During Initial Test](https://github.com/CedarGroveStudios/PCB_AD5293_Digital_Potentiometer/blob/main/photos/AD5293_glamour.png)
 
-The AD5293 Digital Potentiometer breakout board is a simple implementation of the Analog Devices' SPI, 100K-ohm chip. The potentiometer sports 10246 resistance steps and can work with a power source from +/-9V to +/-16.5V. The pins act similarly to a passive resistive potentiometer, but require that voltage placed on any of the three pins not exceed the dual power supply voltages.
+The AD5293 Digital Potentiometer is an SPI, 100K-ohm device. The potentiometer sports 1024 resistance steps. The digital logic power requires 2.7v to 5.5v. The potentiometer circuit operates with dual analog supply voltages from +/-9v to +/-16.5v. The pins act similarly to a passive resistive potentiometer, but require that voltages placed on any of the three pins not exceed the analog power supply voltages.
+
+The Cedar Grove AD5293 custom breakout board provides power and signal connections for SPI and the potentiometer chip. The AD5293 is also used in the AD9833-based Cedar Grove Precision VCO Eurorack module.
 
 A CircuitPython library is available in the code folder.
 

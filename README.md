@@ -9,4 +9,4 @@ The Cedar Grove AD5293 custom breakout board provides power and signal connectio
 
 A CircuitPython library is available: https://github.com/CedarGroveStudios/CircuitPython_AD5293
 
-<a href="https://oshpark.com/shared_projects/ADF8EdH9"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/JgsYr1kv"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>

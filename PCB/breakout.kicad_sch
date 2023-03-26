@@ -6,8 +6,8 @@
 
   (title_block
     (title "AD5293_breakout")
-    (date "2023-03-17")
-    (rev "2.0.0")
+    (date "2023-03-25")
+    (rev "2.0.1")
     (company "Cedar Grove Studios")
   )
 
@@ -1019,7 +1019,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e2ef676c-627a-413f-bfbf-1353fb910f00)
   )
-  (text "HIPO" (at 75.565 99.695 180)
+  (text "SDO" (at 75.565 99.695 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e736b25b-b772-4a49-88d1-cee950617bdd)
   )
@@ -1030,6 +1030,11 @@
   (text "L" (at 220.345 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ed9d52fd-f3fc-4573-93ad-1847ab8363f9)
+  )
+  (text "NOTE: SDO pin is not directly\ncompatible with SPI HIPO unless\ntri-state buffered."
+    (at 89.535 85.725 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eee7b72b-b900-4fb7-9e9e-ffec25e17b7d)
   )
 
   (label "W" (at 192.405 98.425 180)
@@ -1064,7 +1069,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3adda30f-c672-47ac-bc3a-2272403b7e8a)
   )
-  (label "HIPO" (at 98.425 99.06 180)
+  (label "SDO" (at 98.425 99.06 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 49515339-9c96-4343-a06b-a5135fd54d8f)
   )
@@ -1096,7 +1101,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8708a9ef-de3c-477e-aa04-81dffeba8169)
   )
-  (label "HIPO" (at 123.19 93.345 0)
+  (label "SDO" (at 123.19 93.345 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b1c1917-4579-4fdb-881a-0a28abe9c62a)
   )

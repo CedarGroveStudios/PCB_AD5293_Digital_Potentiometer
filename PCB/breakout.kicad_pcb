@@ -7,7 +7,7 @@
   (paper "USLetter")
   (title_block
     (title "AD5293_breakout")
-    (date "2023-04-20")
+    (date "2023-04-21")
     (rev "2.0.2")
     (company "Cedar Grove Studios")
   )
@@ -894,7 +894,7 @@
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (layer "B.Cu")
-    (tedit 5C745284) (tstamp 878a2718-59d9-4c03-a97a-b08c3d833cb9)
+    (tedit 6442DB1A) (tstamp 878a2718-59d9-4c03-a97a-b08c3d833cb9)
     (at 146.3 107.4)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
     (tags "net tie solder jumper bridged")
@@ -902,11 +902,11 @@
     (property "Sheetname" "")
     (path "/991b953c-6fe5-4784-8fd0-677b79bc56f2")
     (attr exclude_from_pos_files)
-    (fp_text reference "JP1" (at -2.15 0.8) (layer "B.SilkS") hide
+    (fp_text reference "JP1" (at -2.15 0.8 180) (layer "B.SilkS") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
       (tstamp adda719e-cc0a-4a85-b429-67f8b39774f5)
     )
-    (fp_text value "SDO PULL-UP" (at -5.1 0.05) (layer "B.SilkS")
+    (fp_text value "SDO PULL-UP" (at -5.1 0.05 180) (layer "B.SilkS")
       (effects (font (size 0.6 0.6) (thickness 0.1)) (justify mirror))
       (tstamp 494350ab-d17d-4de3-8b96-f15451154d6a)
     )
@@ -924,11 +924,12 @@
     (fp_arc (start 0.7 -1) (mid 1.194975 -0.794975) (end 1.4 -0.3) (layer "B.SilkS") (width 0.12) (tstamp 4b325ae5-e73e-4571-bbb6-af750e7a58b8))
     (fp_arc (start -1.4 -0.3) (mid -1.194975 -0.794975) (end -0.7 -1) (layer "B.SilkS") (width 0.12) (tstamp 8e99653b-c67d-4ba5-a650-293257580275))
     (fp_arc (start 1.4 0.3) (mid 1.194975 0.794975) (end 0.7 1) (layer "B.SilkS") (width 0.12) (tstamp eec6f1b0-e4aa-49f8-b4a3-e9424cd19e76))
+    (fp_rect (start -0.3 0.35) (end 0.3 -0.35) (layer "B.Mask") (width 0.01) (fill solid) (tstamp ef996d8d-e885-4c54-b48b-e12cd0bd7e8e))
     (fp_line (start -1.65 1.25) (end 1.65 1.25) (layer "B.CrtYd") (width 0.05) (tstamp 20a43104-38cb-4a67-8590-5917234169dc))
     (fp_line (start 1.65 -1.25) (end 1.65 1.25) (layer "B.CrtYd") (width 0.05) (tstamp 70b4eaa4-61ff-4379-b06d-623ca05164b1))
     (fp_line (start 1.65 -1.25) (end -1.65 -1.25) (layer "B.CrtYd") (width 0.05) (tstamp e1e9dd9e-df2b-4b75-b02e-38146938802b))
     (fp_line (start -1.65 1.25) (end -1.65 -1.25) (layer "B.CrtYd") (width 0.05) (tstamp fa18dae7-2fb1-4387-a3c1-308ca16c5c1d))
-    (pad "1" smd custom locked (at -0.65 0) (size 1 0.5) (layers "B.Cu" "B.Mask")
+    (pad "1" smd custom (at -0.65 0) (size 1 0.5) (layers "B.Cu" "B.Mask")
       (net 18 "Net-(JP1-Pad1)") (pinfunction "A") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -941,7 +942,7 @@
             (xy 0.5 -0.75)
           ) (width 0) (fill yes))
       ) (tstamp 3a9c4d0d-b8e3-4e3b-8868-df708ade9fd9))
-    (pad "2" smd custom locked (at 0.65 0) (size 1 0.5) (layers "B.Cu" "B.Mask")
+    (pad "2" smd custom (at 0.65 0) (size 1 0.5) (layers "B.Cu" "B.Mask")
       (net 12 "/SDO") (pinfunction "B") (pintype "passive") (zone_connect 2)
       (options (clearance outline) (anchor rect))
       (primitives
@@ -3173,7 +3174,7 @@
   (gr_text "AD5293 - 100K\nDigital Potentiometer" (at 143.85 102.65) (layer "B.SilkS") (tstamp 053c8c0e-6810-471c-b85a-10de05cb8350)
     (effects (font (size 0.6 0.6) (thickness 0.12) italic) (justify mirror))
   )
-  (gr_text "2023-04-20 2.0.2" (at 143.8 104.3) (layer "B.SilkS") (tstamp 6bfe5804-2ef9-4c65-b2a7-f01e4014370a)
+  (gr_text "2023-04-21 2.0.2" (at 143.8 104.3) (layer "B.SilkS") (tstamp 6bfe5804-2ef9-4c65-b2a7-f01e4014370a)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
   (gr_text "AD5293-100K DIGI-POT" (at 151.9 111.5) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005cda0b14)
